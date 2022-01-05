@@ -7,10 +7,12 @@ module EmojiRegex
   # Matches emoji which present as emoji by default, and those which present as emoji when combined with `U+FE0F VARIATION SELECTOR-16`.
   #
   # "#️⃣" (U+0023,U+FE0F,U+20E3) and "#️" (U+0023,U+FE0F) are matched, but not "#" (U+0023).
+  @[Deprecated("Please use `RGIEmoji` instead. RGIEmoji will become the only regex, and be renamed to Emoji in a future major release.")]
   Regex = /% emojiRegex %/
 
   # Matches emoji which present as text by default (regardless of variation selector), as well as those which present as emoji by default.
   #
   # All of "#" (U+0023), "#️" (U+0023,U+FE0F) and "#️⃣" (U+0023,U+FE0F,U+20E3) are matched.
+  @[Deprecated("Please use `RGIEmoji` instead. RGIEmoji will become the only regex, and be renamed to Emoji in a future major release.")]
   Text = /% emojiRegexText %/
 end
