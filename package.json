@@ -1,0 +1,14 @@
+{
+  "name": "crystal-emoji-regex",
+  "version": "1.0.0",
+  "description": "TODO: Write a description here",
+  "main": "index.js",
+  "scripts": {
+    "build": "node script/import.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "emoji-regex": "9.2.2"
+  }
+}

@@ -1,0 +1,14 @@
+name: emoji_regex
+version: 0.1.0
+
+authors:
+  - Chris Watson <cawatson1993@gmail.com>
+
+development_dependencies:
+  spectator:
+    gitlab: arctic-fox/spectator
+    version: ~> 0.10.3
+
+crystal: 1.2.2
+
+license: MIT
